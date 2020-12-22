@@ -18,7 +18,7 @@ domain=$1
 echo "** Github-Search Started"
 cd ~/Tools/github-search
 source ./env/bin/activate
-python3 github-subdomains.py -t 0cedb2165625cd044c6069e9fc480890bc18ada4 -d $domain > $path/github-search.txt
+python3 github-subdomains.py -t <Github Token> -d $domain > $path/github-search.txt
 echo "** Github-Search Finished"
 echo
 
